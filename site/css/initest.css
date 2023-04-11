@@ -1,0 +1,63 @@
+body {
+    color: rgb(148, 148, 148);
+    font-family: 'comfortaa';
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-color: #0a1a1b;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(194, 18%, 36%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(211, 90%, 16%) 0, transparent 55%);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+#logo {
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+nav {
+    background-color: rgb(184, 176, 176);
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+#divmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.textos{
+    border-radius: 1vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    backdrop-filter: blur(75px) saturate(60%);
+    background-color: rgba(0, 0, 0, 0.582);
+    font-size: .75vw;
+}
